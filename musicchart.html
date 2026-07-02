@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Music Chart</title>
+      <style>
+      body{
+        background-color: #65a66d;
+      }
+    </style>
+    <script src="https://cdn.plot.ly/plotly-3.6.0.min.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <center>
+      <h1>My Favorite Masego Songs</h1>
+      <div id="plot"></div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/hC8CH0Z3L54?si=r4CftyGZhaQKgeP-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/5i6A1IHAQsg?si=SDu6CM0rczaQDUhp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/fuAE3U1NvOs?si=QLpr4tqNIw9yYKd_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <p><a href="index.html">Return to the Home Page</a></p>
+      <hr>
+      <p>&copy; STEM PREP 2026</p>
+    </center>
+    <script>
+      var songs = ["Tadow", "Mystery Lady", "Navajo"];
+      var views = [547792714, 58722190, 72365392];
+      var trace = {
+        x: songs,
+        y: views,
+        type: "bar"
+      };
+      var data = [trace];
+      var layout = {title: "My Favorite Masego Songs"};
+      Plotly.newPlot("plot", data, layout);
+    </script>
+  </body>
+</html>
