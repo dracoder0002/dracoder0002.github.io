@@ -1,5 +1,5 @@
 //  3.15 N 73 E
-var coordinates = [3.15, 73];
+var coordinates = [4.1750, 73.5090];
 var map = L.map('map').setView(coordinates, 13);
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
