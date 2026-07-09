@@ -3,6 +3,9 @@ var coordinates = [4.1750, 73.5090];
 var popupcode = `<center>
 <h3>Hello from the Maldives!</h3>
 <iframe width="200" height="100" src="https://www.youtube.com/embed/1fT9pCa6r5M?si=_TVKeeNP6oKpIF_T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<p>
+<a href="travel.html">Click here to go to my travel page</a>
+</p>
 </center>`;
 var marker1 = [3.61738, 72.71727];
 var markercode = `<center>
