@@ -6,7 +6,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 L.circle(coordinates, {"title": "Hello from the Maldives!",
-                      color: 'black',
+                      color: '#e6ae17',
                       fillColor: '#e6ae17',
                       fillOpacity: 0.8,
                       radius: 90}).bindPopup("<p>Hello From the Maldives!</p>").addTo(map);
